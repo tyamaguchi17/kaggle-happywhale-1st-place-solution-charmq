@@ -2,7 +2,7 @@
 This is the charmq's part of the Preferred Dolphin's solution.
 
 ## Dataset
-Please prepare dataset according to the instruction of dataset repository and place under `happywhale_data/`.
+Please place competition data under `happywhale_data/`.
 ```
 $ ls happywhale_data
 backfin_test_charm.csv    fullbody_train.csv     test2.csv          train.csv
