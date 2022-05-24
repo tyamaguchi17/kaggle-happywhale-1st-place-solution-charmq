@@ -1,0 +1,4 @@
+# @package _group_
+type: cosine_annealing
+T_max: ${training.epoch}
+eta_min: 1.0e-6  # Minimum learning rates

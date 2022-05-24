@@ -1,0 +1,5 @@
+# @package _group_
+type: reduce_on_plateau
+lr_decay_rate: 0.1
+patience: 10
+min_lr: 1.0e-6

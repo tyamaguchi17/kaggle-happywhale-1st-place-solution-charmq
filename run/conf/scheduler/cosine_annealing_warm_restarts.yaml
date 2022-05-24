@@ -1,0 +1,5 @@
+# @package _group_
+type: cosine_annealing_warm_restarts
+T_0: 1  # Initial interval
+T_mult: 2  # Interval multiplying factor
+eta_min: 1.0e-6  # Minimum learning rates

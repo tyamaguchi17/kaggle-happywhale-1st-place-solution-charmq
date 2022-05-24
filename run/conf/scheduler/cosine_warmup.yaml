@@ -1,0 +1,4 @@
+type: cosine_warmup
+max_epochs: ${training.epoch}
+warmup_steps_ratio: 0.2
+lr_decay_scale: 1.0e-2

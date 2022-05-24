@@ -1,0 +1,33 @@
+# @package _group_
+type: happy_whale
+
+num_classes: 15587
+num_species_classes: 26
+num_folds: 5
+test_fold: 0  # Test fold for N-fold CV. Should be in [0, num_folds).
+val_fold: ${dataset.test_fold}  # Validation fold for N-fold CV. Should be in [0, num_folds).
+seed: 0 # Seed for RandomKFold
+num_records: 0
+phase: "train"
+crop: null
+bbox: fb
+bbox2: null
+crop_margin: 0.1
+crop_aug: true
+p_fb: 0.6
+p_backfin: 0.05
+p_detic: 0.05
+p_yolo: 0.0
+p_fb_charm: 0.2
+p_backfin_charm: 0.05
+p_none: 0.05
+# bbox mix ratio for double backbone
+p_fb2: 0.0
+p_backfin2: 1.0
+p_detic2: 0.0
+p_yolo2: 0.0
+p_fb_charm2: 0.0
+p_backfin_charm2: 0.0
+p_none2: 0.0
+pseudo_label_filename: null
+pseudo_label_conf: 0.6

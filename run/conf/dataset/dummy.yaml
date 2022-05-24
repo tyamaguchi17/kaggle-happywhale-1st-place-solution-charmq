@@ -1,0 +1,4 @@
+# @package _group_
+type: dummy
+num_classes: 3
+dummy_length: 100

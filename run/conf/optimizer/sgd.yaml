@@ -1,0 +1,5 @@
+# @package _group_
+type: sgd
+lr: 1.0e-3
+weight_decay: 1.0e-5
+momentum: 0.9

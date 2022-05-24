@@ -1,0 +1,3 @@
+# @package _group_
+type: exponential_lr
+lr_decay_rate: 0.9
